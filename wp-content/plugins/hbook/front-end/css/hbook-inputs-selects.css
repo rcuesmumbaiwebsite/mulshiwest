@@ -1,0 +1,9 @@
+.hbook-wrapper input[type="text"],
+.hbook-wrapper input[type="number"],
+.hbook-wrapper select,
+.hbook-wrapper textarea {
+	background: rgba(0,0,0,0);
+	border-style: solid;
+	outline: none;
+	transition: border 0.4s;
+}

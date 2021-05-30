@@ -1,0 +1,540 @@
+
+/* search form */
+
+p.hb-check-dates-wrapper,
+p.hb-people-wrapper,
+p.hb-search-button-wrapper {
+	float: left;
+	margin-right: 2%;
+	position: relative;
+}
+
+p.hb-search-button-wrapper {
+	margin-right: 0;
+}
+
+.hb-datepick-check-in-out-mobile-trigger {
+	bottom: 0;
+	display: none;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.hb-datepick-check-in-out-trigger {
+	display: block;
+	position: absolute;
+}
+
+.hb-check-dates-wrapper {
+	width: 22%;
+}
+
+.hb-people-wrapper {
+	width: 14%;
+}
+
+.hb-search-button-wrapper {
+	width: 20%;
+}
+
+.hb-search-form-no-children .hb-check-dates-wrapper,
+.hb-search-form-no-children .hb-people-wrapper,
+.hb-search-form-no-children .hb-search-button-wrapper {
+	width: 23.5%;
+}
+
+.hb-search-form-no-people .hb-check-dates-wrapper {
+	width: 36%;
+}
+
+.hb-search-form-no-people .hb-search-button-wrapper {
+	width: 24%;
+}
+
+.hb-search-form-no-people .hb-people-wrapper {
+	display: none;
+}
+
+.hb-search-form-no-children .hb-people-wrapper-children,
+.hb-search-form-no-children .hb-chosen-children {
+	display: none;
+}
+
+
+.hb-check-dates-wrapper input,
+.hb-people-wrapper select,
+.hb-search-button-wrapper input {
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.hb-search-button-wrapper input {
+	text-align: center;
+	white-space: normal;
+}
+
+.hb-vertical-search-form .hb-searched-summary p,
+.hb-vertical-search-form .hb-check-dates-wrapper,
+.hb-vertical-search-form .hb-people-wrapper,
+.hb-vertical-search-form .hb-search-button-wrapper {
+	margin-right: 0%;
+	width: 100%;
+}
+
+.hb-vertical-search-form:not(.hb-search-form-no-children) p.hb-people-wrapper {
+	float: left;
+	width: 48%;
+}
+
+.hb-vertical-search-form .hb-searched-summary p.hb-people-wrapper {
+	width: 100%;
+}
+
+.hb-vertical-search-form:not(.hb-search-form-no-children) p.hb-people-wrapper-adults {
+	margin-right: 4%;
+}
+
+.hb-vertical-search-form p.hb-people-wrapper-last {
+	margin-right: 0;
+}
+
+.hb-vertical-search-form:not(.hb-narrow-search-form) .hb-search-button-wrapper input {
+	width: auto;
+}
+
+.hb-vertical-search-form .hb-search-button-wrapper label {
+	display: none;
+}
+
+p.hb-booking-searching {
+	background: url(loader-2x.gif) no-repeat left center;
+	background-size: 24px 24px;
+	display: none;
+	line-height: 30px;
+	padding-left: 30px;
+}
+
+.hb-searched-summary,
+.hb-search-no-result,
+.hb-search-error,
+.hb-accom-list {
+	display: none;
+}
+
+/* end search form */
+
+/* accommodation selection */
+
+.hb-booking-nb-nights,
+.hb-accom-id,
+.hb-accom-single-choice .hb-select-accom-multiple,
+.hb-accom-multiple-choice .hb-select-accom-single,
+.hb-accom-page .hb-view-accom,
+.hb-accom-selected .hb-select-accom,
+.hb-accom-page .hb-accom-selected .hb-select-accom-wrapper,
+.hb-accom-selected-name {
+	display: none;
+}
+
+.hb-accom {
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	min-height: 90px;
+	padding: 15px;
+	padding-bottom: 0px;
+	transition: background 0.5s;
+}
+
+.hb-accom-page .hb-accom {
+	background: none;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	border-radius: 0;
+	border-top: 1px solid #ccc;
+	margin-bottom: 20px;
+	padding: 0;
+	padding-top: 15px;
+}
+
+.hb-accom-selected {
+	background: #eee;
+}
+
+.hb-accom-page .hb-accom-selected {
+	background: none;
+}
+
+.hb-accom-title {
+	font-weight: bold;
+}
+
+.hb-accom-img {
+	display: block;
+	float: right;
+	margin: 0 0 15px 15px;
+	max-width: 100%;
+}
+
+.hb-accom-price {
+	float: left;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 45px;
+	margin-right: 8px;
+}
+
+.hb-accom-price-caption {
+	float: left;
+	font-size: 12px;
+	line-height: 14px;
+	margin: 22px 0 15px;
+}
+
+.hb-accom-price-caption-small {
+	margin-top: 8px;
+}
+
+.hb-price-breakdown,
+.hb-price-bd-hide-text,
+.hb-hidden-price-breakdown,
+.hb-price-breakdown-global-discount,
+.hb-price-breakdown-section.hb-fee-accom-included,
+.hb-price-breakdown-section.hb-fee-accom-final {
+	display: none;
+}
+
+.hb-price-breakdown-title {
+	display: block;
+	font-weight: bold;
+}
+
+.hb-price-breakdown-section {
+	display: block;
+}
+
+.hb-select-accom,
+.hb-view-accom {
+	float: left;
+}
+
+p.hb-select-accom {
+	margin-right: 15px;
+}
+
+.hb-accom-selected .hb-accom-selected-name {
+	display: block;
+	font-weight: bold;
+}
+
+.hb-select-accom-id-num label {
+	margin-left: 5px;
+}
+
+/* end accommodation selection */
+
+/* booking details form */
+
+.hb-booking-details-form,
+.hb-saving-resa,
+.hb-confirm-error,
+.hb-policies-error,
+.hb-resa-done-msg,
+.hb-resa-payment-msg,
+.hb-bottom-area-content,
+.hb-bottom-area
+{
+	display: none;
+}
+
+.hb-detail-field {
+	box-sizing: border-box;
+	width: 100%;
+}
+
+textarea.hb-detail-field {
+	height: 140px !important;
+}
+
+.hbook-wrapper .form-error {
+	display: block;
+}
+
+.hb-saving-resa {
+	background: url(loader-2x.gif) no-repeat left center;
+	background-size: 24px 24px;
+	display: none;
+	line-height: 30px;
+	padding-left: 30px;
+}
+
+.hb-resa-summary-content {
+	background: #FCFCFC;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-bottom: 22px;
+	padding: 10px 17px;
+}
+
+.hb-accom-page .hb-summary-accom-wrap,
+.hb-summary-accom-num-name-wrap {
+	display: none;
+}
+
+.hb-resa-summary-content .hb-fee-accom-final {
+	display: block;
+}
+
+.hb-summary-deposit,
+.hb-summary-total-price,
+.hb-summary-bond,
+.hb-resa-done-email {
+	font-weight: bold;
+}
+
+.hb-summary-total-price small {
+	font-weight: normal;
+}
+
+.hb-booking-details-form .hb-payment-type-multiple-choice label,
+.hb-booking-details-form .hb-payment-method label {
+	display: inline;
+}
+
+.hb-payment-type-explanation,
+input.hb-payment-type-hidden,
+input.hb-payment-method-hidden,
+input.hb-payment-type-null-price,
+.hb-payment-method-wrapper {
+	display: none;
+}
+
+.hb-column-half {
+	float: left;
+	width: 48%;
+}
+
+.hb-column-third {
+	float: left;
+	width: 30.66%;
+}
+
+.hb-column-half,
+.hb-column-third {
+	margin-right: 4%;
+}
+
+.hb-column-half:last-of-type,
+.hb-column-third:last-of-type {
+	margin-right: 0;
+}
+
+.hb-details-form-stacked .hb-column-half,
+.hb-details-form-stacked .hb-column-third {
+	float: none;
+	width: 100%;
+}
+
+/* end booking details form */
+
+/* coupon */
+
+input.hb-coupon-code {
+	width: 200px;
+}
+
+.hb-coupon-code,
+.hb-apply-coupon {
+	float: left;
+	margin-right: 15px;
+}
+
+.hb-processing-coupon {
+	background: url(loader-2x.gif) no-repeat left center;
+	background-size: 24px 24px;
+	display: none;
+	float: left;
+	height: 24px;
+	margin-top: 8px;
+	width: 24px;
+}
+
+.hb-summary-coupon-amount,
+.hb-coupon-type,
+.hb-coupon-amount,
+.hb-coupon-msg,
+.hb-coupon-error {
+	display: none;
+}
+
+/* end coupon */
+
+/* misc */
+
+.hb-explanation {
+	font-style: italic;
+}
+
+.hbook-wrapper input[type="text"] {
+	display: block;
+}
+
+.hbook-wrapper label {
+	display: table;
+}
+
+.hbook-wrapper label.hb-label-choice,
+.hbook-wrapper label.hb-terms-and-cond,
+.hbook-wrapper label.hb-privacy-policy {
+	display: inline;
+}
+
+.hb-accom-list-shortcode-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.hb-accom-list-row {
+	display: flex;
+	align-items: stretch;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.hb-accom-list-column  {
+	padding: 20px;
+	margin-bottom: 50px;
+}
+
+.hb-accom-list-mobile-view {
+	max-width: 100% !important;
+}
+
+.hb-accom-list-booking-form {
+	margin-top: 12px;
+}
+
+a.hb-thumbnail-link {
+	border: none;
+	display: block;
+}
+
+.hb-accom-list-thumb {
+	display: block;
+	float: left;
+	max-width: 100%;
+}
+
+.hb-accom-list-item h2,
+.hb-accom-list-item h3,
+.hb-accom-list-item h4 {
+	clear: none;
+}
+
+.hb-single-option {
+	line-height: 2;
+}
+
+.hb-quantity-option {
+	margin-bottom: 5px;
+}
+
+.hb-options-form,
+.hb-quantity-option,
+.hb-single-option,
+.hb-multiple-option {
+	display: none;
+}
+
+.hbook-wrapper .hb-options-form label {
+	display: inline;
+}
+
+.hb-options-total-price {
+	font-weight: bold;
+}
+
+.hb-price-placeholder-minus {
+	display: none;
+}
+
+.hb-select-accom-num-form {
+	display: none;
+	margin-bottom: 20px;
+}
+
+.hbook-wrapper .hb-select-accom-num-form label {
+	display: inline;
+}
+
+.hb-global-discount-wrapper,
+.hb-summary-discount-amount {
+	display: none;
+}
+
+.hb-stripe-card-element-wrapper {
+	position: relative;
+}
+
+.hb-stripe-card-element-bg {
+	width: 100%;
+}
+
+.hb-stripe-card-element {
+	left: 10px;
+	margin-top: -8px;
+	position: absolute;
+	right: 10px;
+	top: 50%;
+}
+
+.hb-stripe-error {
+	display: none;
+}
+
+.hb-payment-form-stripe {
+	background: #ddd;
+	border-radius: 5px;
+	padding: 15px 20px 1px;
+	margin-bottom: 22px;
+}
+
+.hb-padlock-img {
+	margin-right: 3px;
+	vertical-align: text-bottom;
+}
+
+.hb-paypal-payment-gateway-label-img-paypal {
+	margin-top: -4px;
+}
+
+.hb-bottom-area img,
+.hbook-wrapper label img {
+	vertical-align: middle;
+}
+
+.hb-search-error,
+.hbook-wrapper .form-error,
+.hb-confirm-error,
+.hb-policies-error,
+.hb-stripe-error,
+.hb-coupon-error {
+	color: #F04826;
+}
+
+.hb-alignleft {
+	float: left;
+}
+
+.hb-clearfix:after {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+/* end misc */
